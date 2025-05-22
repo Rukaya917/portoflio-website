@@ -1,0 +1,144 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.hero-left,.hero-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.background-coder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;  
+}
+h1{
+    font-size: 48px;
+    line-height: 1.2; 
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.hero-left{
+    background-color: #868859;
+    color: #292E17;
+}
+.hero-right{
+    background-color: #292E17;
+    color: #868859;
+    background-image: url('../assets/right-side-bg\ -\ final.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 20s ease-in-out infinite;
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* expand side */
+.hero-left.expend{
+    flex: 7;
+}
+.hero-right.expend{
+    flex: 7;
+}
+.hero.shrink-left .hero-right{
+    flex:3;
+} 
+.hero.shrink-right .hero-left{
+    flex:3;
+}
+.background-words {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none; /* So user can still hover normally */
+    
+}
+.background-word {
+    position: absolute;
+    opacity: 0.10;
+    font-size: 140px;
+    white-space: nowrap;
+    color: #292E17;
+    animation: breathe 15s ease-in-out infinite;
+}
+
+/* Specific font styles */
+.dream {
+    top: -10%;
+    left: 5%;
+    font-family: 'pacifico', cursive;
+}
+
+.build {
+    top: 7%;
+    left: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.invent {
+    top: 20%;
+    left: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.craft {
+    top: 40%;
+    left: 50%;
+    font-family: 'Pacifico', cursive;
+}
+
+.express {
+    top: 60%;
+    left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* animation */
+@keyframes moveBackground {
+    0% {background-position: center;}
+    50% {background-position: center top;}
+    100% {background-position: center ;}
+
+}
+@keyframes breathe {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}

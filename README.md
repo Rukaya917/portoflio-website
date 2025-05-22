@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🧑‍💻 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website built using **ReactJS**. This project showcases my skills, projects, and contact information in a clean, interactive, and modern interface.
 
-## Available Scripts
+## 📌 Project Overview
 
-In the project directory, you can run:
+This website was created to:
 
-### `npm start`
+- Highlight my web development skills.
+- Display my latest projects.
+- Provide a professional, accessible way to contact me.
+- Serve as a living resume and digital presence.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js
+- **Styling**: CSS (component-specific), animations
+- **Routing**: React Router DOM
+- **Icons**: React Icons
+- **Version Control**: Git & GitHub
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✅ Features Implemented
 
-### `npm run build`
+### 💡 General Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive design for desktop, tablet, and mobile.
+- Smooth scroll and navigation between sections.
+- Component-based architecture.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧩 Pages and Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Home Page**: Intro with a brief welcome and animation.
+- **About Me**: Brief background, skills, and experience.
+- **Projects**: Showcase of selected portfolio projects with images and links.
+- **Contact**: A working contact form (optional – if added later).
+- **Footer**: Links to social platforms and credits.
 
-### `npm run eject`
+### 🌐 Language Support
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Support for **Arabic and English** notifications handled on the frontend.
+- Language is not stored on the backend – fully managed by the frontend based on user preference.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔮 Features To Be Added
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Dark mode toggle
+- [ ] Contact form backend integration (Node.js or Formspree)
+- [ ] Project filtering by tech stack
+- [ ] Blog section to write about development experience
+- [ ] Testimonials or client reviews
+- [ ] Downloadable resume (CV) section
+- [ ] Deployment to Vercel / Netlify with custom domain
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 How to Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Rukaya917/portoflio-website.git
+cd portoflio-website
+npm install
+npm start
+```
